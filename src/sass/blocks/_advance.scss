@@ -1,0 +1,39 @@
+.advance{
+    min-height: 473px;
+    background-color: #F6F6F6;
+    padding: 70px 0 85px 0;
+    &__label{
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        color: #0D0D0D;
+    }
+    &__wrapper{
+        margin-top: 60px;
+        display: flex;
+
+    }
+    &__icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    &__info{
+        max-width: 269px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 35px;
+        span{
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 18px;
+            display: block;
+            margin-top: 20px;
+        }
+        
+
+    }
+}
