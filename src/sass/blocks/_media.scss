@@ -1,0 +1,45 @@
+@media screen and (max-width: 767px){
+    .promo{
+        &__wrapper{
+            display: flex;
+            align-items: center;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 650px){
+    .header{
+        &__official{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 575px){
+    .advance{
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__icon{
+            margin-top: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 426px){
+    .header{
+        &__logo{
+            width: 170px;
+        }
+        &__phone{
+            font-size: 13px;
+        }
+        &__contacts{
+            button{
+                width: 120px;
+                font-size: 10px;
+            }
+        }
+    }
+}
